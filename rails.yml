@@ -1,0 +1,52 @@
+inherit_from: ruby.yml
+
+require:
+  - rubocop-rails
+
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - node_modules/**/*
+    - bin/*
+
+Layout/LineLength:
+  Exclude:
+    - db/migrate/*
+
+Metrics/AbcSize:
+  Exclude:
+    - db/migrate/*
+
+Metrics/BlockLength:
+  Exclude:
+    - config/environments/*
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - db/migrate/*
+
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/*
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - db/migrate/*
+
+Rails/InverseOf:
+  Enabled: false
+
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - config/application.rb
+    - db/migrate/*
+
+Style/LambdaCall:
+  Exclude:
+    - app/views/**/*.jbuilder

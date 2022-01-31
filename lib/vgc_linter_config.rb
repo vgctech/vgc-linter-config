@@ -1,0 +1,2 @@
+module VgcLinterConfig
+end
