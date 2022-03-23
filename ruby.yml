@@ -99,6 +99,9 @@ Style/MultilineBlockChain:
 Style/MultilineIfModifier:
   Enabled: false
 
+Style/ParallelAssignment:
+  Enabled: false
+
 Style/RescueModifier:
   Enabled: false
 
