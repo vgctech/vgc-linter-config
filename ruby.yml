@@ -8,6 +8,9 @@ AllCops:
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation
 
+Layout/ArrayAlignment:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
@@ -94,6 +97,9 @@ Style/MultilineBlockChain:
   Enabled: false
 
 Style/MultilineIfModifier:
+  Enabled: false
+
+Style/ParallelAssignment:
   Enabled: false
 
 Style/RescueModifier:
