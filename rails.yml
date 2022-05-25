@@ -22,7 +22,7 @@ Metrics/BlockLength:
   Exclude:
     - config/environments/*
     - spec/**/*
-    - *.jbuilder
+    - app/views/**/*.jbuilder
 
 Metrics/CyclomaticComplexity:
   Exclude:
