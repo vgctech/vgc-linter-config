@@ -27,14 +27,20 @@ Metrics/BlockLength:
 Metrics/CyclomaticComplexity:
   Exclude:
     - db/migrate/*
+  IgnoredMethods:
+    - csv
 
 Metrics/MethodLength:
   Exclude:
     - db/migrate/*
+  IgnoredMethods:
+    - csv
 
 Metrics/PerceivedComplexity:
   Exclude:
     - db/migrate/*
+  IgnoredMethods:
+    - csv
 
 Rails/InverseOf:
   Enabled: false
