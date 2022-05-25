@@ -17,6 +17,8 @@ Layout/LineLength:
 Metrics/AbcSize:
   Exclude:
     - db/migrate/*
+  IgnoredMethods:
+    - csv
 
 Metrics/BlockLength:
   Exclude:
