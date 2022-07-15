@@ -19,7 +19,7 @@ Layout/HashAlignment:
 
 Layout/LineLength:
   Max: 140
-  IgnoredPatterns: ['\A\s*#']
+  AllowedPatterns: ['\A\s*#']
 
 Layout/MultilineMethodCallBraceLayout:
   EnforcedStyle: new_line
