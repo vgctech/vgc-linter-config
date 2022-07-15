@@ -40,6 +40,7 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 50
   IgnoredMethods:
+    - class_methods
     - concerning
     - context
 
