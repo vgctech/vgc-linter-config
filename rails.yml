@@ -21,6 +21,8 @@ Metrics/AbcSize:
     - csv
 
 Metrics/BlockLength:
+  ExcludedMethods:
+    - class_methods
   Exclude:
     - config/environments/*
     - spec/**/*
