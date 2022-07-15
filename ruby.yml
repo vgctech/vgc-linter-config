@@ -60,6 +60,7 @@ Naming/InclusiveLanguage:
 
 Naming/VariableNumber:
   CheckSymbols: false
+  EnforcedStyle: snake_case
 
 RSpec/ExampleLength:
   Max: 30
