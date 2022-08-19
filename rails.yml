@@ -17,7 +17,7 @@ Layout/LineLength:
 Metrics/AbcSize:
   Exclude:
     - db/migrate/*
-  IgnoredMethods:
+  AllowedMethods:
     - csv
 
 Metrics/BlockLength:
@@ -29,19 +29,19 @@ Metrics/BlockLength:
 Metrics/CyclomaticComplexity:
   Exclude:
     - db/migrate/*
-  IgnoredMethods:
+  AllowedMethods:
     - csv
 
 Metrics/MethodLength:
   Exclude:
     - db/migrate/*
-  IgnoredMethods:
+  AllowedMethods:
     - csv
 
 Metrics/PerceivedComplexity:
   Exclude:
     - db/migrate/*
-  IgnoredMethods:
+  AllowedMethods:
     - csv
 
 Rails/InverseOf:
