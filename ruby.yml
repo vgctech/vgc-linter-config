@@ -65,6 +65,8 @@ Naming/VariableNumber:
 
 RSpec/ExampleLength:
   Max: 30
+  Exclude:
+    - spec/system/*
 
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
