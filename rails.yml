@@ -45,6 +45,16 @@ Metrics/PerceivedComplexity:
   AllowedMethods:
     - csv
 
+Rails/ActionOrder:
+  ExpectedOrder:
+    - index
+    - show
+    - new
+    - create
+    - edit
+    - update
+    - destroy
+
 Rails/InverseOf:
   Enabled: false
 
