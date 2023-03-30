@@ -74,6 +74,9 @@ RSpec/MultipleMemoizedHelpers:
 RSpec/MultipleExpectations:
   Enabled: false
 
+RSpec/NestedGroups:
+  MaxNesting: 4
+
 Style/AsciiComments:
   Enabled: false
 
