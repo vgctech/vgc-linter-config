@@ -14,6 +14,9 @@ Layout/ArrayAlignment:
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
 Layout/HashAlignment:
   Enabled: false
 
