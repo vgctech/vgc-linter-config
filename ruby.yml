@@ -1,7 +1,5 @@
 require:
   - rubocop-rspec
-  - rubocop-inflector
-  - ./config/initializers/inflections
 
 AllCops:
   NewCops: enable
