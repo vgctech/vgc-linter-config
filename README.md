@@ -16,6 +16,10 @@ Create a `.rubocop.yml` with the following directives:
 inherit_gem:
   vgc-linter-config:
     - rails.yml # or ruby.yml
+
+require:
+  - active_support
+  - ./config/initializers/inflections
 ```
 
 ## JS
