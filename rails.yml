@@ -10,6 +10,9 @@ AllCops:
     - bin/*
     - vendor/bundle/**/*
 
+FactoryBot/ExcessiveCreateList:
+  Enabled: false
+
 Layout/LineLength:
   Exclude:
     - db/migrate/*
