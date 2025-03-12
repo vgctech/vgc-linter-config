@@ -3,7 +3,7 @@ PATH
   specs:
     vgc-linter-config (0.1.0)
       rubocop (= 1.73.2)
-      rubocop-factory_bot (= 2.27.0)
+      rubocop-factory_bot (= 2.25.1)
       rubocop-inflector (= 1.0.0)
       rubocop-rails (= 2.30.3)
       rubocop-rspec (= 3.5.0)
@@ -11,7 +11,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.1)
+    activesupport (8.0.2)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -60,9 +60,8 @@ GEM
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.38.1)
       parser (>= 3.3.1.0)
-    rubocop-factory_bot (2.27.0)
-      lint_roller (~> 1.1)
-      rubocop (~> 1.72, >= 1.72.1)
+    rubocop-factory_bot (2.25.1)
+      rubocop (~> 1.41)
     rubocop-inflector (1.0.0)
       activesupport
       rubocop
