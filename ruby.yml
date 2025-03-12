@@ -1,5 +1,7 @@
-require:
+plugins:
   - rubocop-rspec
+
+require:
   - rubocop-inflector
 
 AllCops:
@@ -121,6 +123,9 @@ Style/ParallelAssignment:
   Enabled: false
 
 Style/RescueModifier:
+  Enabled: false
+
+Style/SafeNavigationChainLength:
   Enabled: false
 
 Style/StringLiterals:
