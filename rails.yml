@@ -1,6 +1,6 @@
 inherit_from: ruby.yml
 
-require:
+plugins:
   - rubocop-rails
 
 AllCops:
