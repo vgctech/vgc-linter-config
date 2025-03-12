@@ -1,8 +1,10 @@
 inherit_from: ruby.yml
 
 plugins:
-  - rubocop-factory_bot
   - rubocop-rails
+
+require:
+  - rubocop-factory_bot
 
 AllCops:
   Exclude:
