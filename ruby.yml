@@ -65,6 +65,9 @@ Metrics/PerceivedComplexity:
 Naming/InclusiveLanguage:
   Enabled: false
 
+Naming/PredicateMethod:
+  Enabled: false
+
 Naming/VariableNumber:
   CheckSymbols: false
   EnforcedStyle: snake_case

@@ -2,8 +2,6 @@ inherit_from: ruby.yml
 
 plugins:
   - rubocop-rails
-
-require:
   - rubocop-factory_bot
 
 AllCops:
