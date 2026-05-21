@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0.0"
   spec.require_paths = %w[lib]
 
-  spec.add_dependency "rubocop", "1.86.0"
+  spec.add_dependency "rubocop", "1.86.2"
   spec.add_dependency "rubocop-factory_bot", "2.28.0"
   spec.add_dependency "rubocop-inflector", "1.0.0"
   spec.add_dependency "rubocop-rails", "2.34.3"
